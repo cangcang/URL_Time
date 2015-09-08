@@ -6,7 +6,6 @@ std::string  parse_url_get_path(std::string url)
 {
     std::string path_string;
     std::string url_string=url;
-    //size_t find_http=url_string.find("http://");
     //contain http://
     if(url_string.find("http://")!=std::string::npos)
     {
